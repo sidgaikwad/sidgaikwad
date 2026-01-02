@@ -1,12 +1,4 @@
 <h1 align="center">Hi 👋, I'm sidd</h1>
-<h3 align="center">As an enthusiastic backend developer and machine learning enthusiast hailing from India, I revel in the exciting world of programming and technology. I thrive on developing high-performance systems that can tackle modern-day business needs, and my expertise in Python and related frameworks has equipped me with the tools to make it happen. I love exploring new technologies and solving real-world problems with creative solutions, and I'm always excited to learn and grow in this rapidly evolving field.</h3>
-
-
-- 🔭 I’m currently working on [Eudaimonia](https://github.com/sidgaikwad/motia)
-
-- 🌱 I’m currently learning **Tensorflow and django**
-
-- ⚡ Fun fact **Do or do not. There is no try**                
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2RiY2M3N2M5YTc5NGEyYTY1ZTlhNzgwN2QwMDM5NDcxMWJmMjU2OSZjdD1z/fvx95jkua5th3YeThr/giphy.gif" width="500" height="500" />
 
