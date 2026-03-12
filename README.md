@@ -26,9 +26,9 @@
 
 ```typescript
 const sidd: Engineer = {
-  name:      "Siddharth Gaikwad",
-  location:  "Mumbai, India 🌙",
-  role:      "Full Stack Engineer (SDE)",
+  name: "Siddharth Gaikwad",
+  location: "Mumbai, India 🌙",
+  role: "Full Stack Engineer (SDE)",
 
   currentlyBuilding: [
     "📄 papercraft    — TypeScript document crafting tool",
@@ -38,13 +38,17 @@ const sidd: Engineer = {
   ],
 
   stack: {
-    languages:  ["TypeScript", "JavaScript", "SQL"],
-    frontend:   ["React", "Next.js", "Tailwind CSS", "Vite"],
-    backend:    ["Node.js", "Express", "Redis", "PostgreSQL", "MongoDB"],
-    tools:      ["Docker", "GitHub Actions", "Vercel", "Netlify", "Linux"],
+    languages: ["TypeScript", "JavaScript", "SQL"],
+    frontend: ["React", "Next.js", "Tailwind CSS", "Vite"],
+    backend: ["Node.js", "Express", "Redis", "PostgreSQL", "MongoDB"],
+    tools: ["Docker", "GitHub Actions", "Vercel", "Netlify", "Linux"],
   },
 
-  achievements: ["🦈 Pull Shark ×2", "⚡ Quickdraw", "👥 Pair Extraordinaire ×2"],
+  achievements: [
+    "🦈 Pull Shark ×2",
+    "⚡ Quickdraw",
+    "👥 Pair Extraordinaire ×2",
+  ],
   funFact: "console.log debugger — unashamed 😌",
 };
 ```
@@ -109,14 +113,6 @@ const sidd: Engineer = {
 
 ---
 
-## 🏆 trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sidgaikwad&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" width="100%" />
-</div>
-
----
-
 ## 🐍 contributions
 
 <div align="center">
@@ -132,13 +128,15 @@ const sidd: Engineer = {
 ## 📦 all repos · auto-updated every 8h
 
 <!-- DASHBOARD:START -->
-| repo | ⭐ | 🍴 | about |
-| --- | --- | --- | --- |
-| [papercraft](https://github.com/sidgaikwad/papercraft) | 13 | 2 | TypeScript-powered papercraft tool |
-| [siddcn](https://github.com/sidgaikwad/siddcn) | 8 | — | website + docs deployment |
-| [netflix-clone](https://github.com/sidgaikwad/netflix-clone) | 2 | — | full Netflix clone on Netlify |
-| [db-setup](https://github.com/sidgaikwad/db-setup) | 2 | — | database setup utility |
-| [Picsplash](https://github.com/sidgaikwad/Picsplash) | 1 | — | image discovery app |
+
+| repo                                                         | ⭐  | 🍴  | about                              |
+| ------------------------------------------------------------ | --- | --- | ---------------------------------- |
+| [papercraft](https://github.com/sidgaikwad/papercraft)       | 13  | 2   | TypeScript-powered papercraft tool |
+| [siddcn](https://github.com/sidgaikwad/siddcn)               | 8   | —   | website + docs deployment          |
+| [netflix-clone](https://github.com/sidgaikwad/netflix-clone) | 2   | —   | full Netflix clone on Netlify      |
+| [db-setup](https://github.com/sidgaikwad/db-setup)           | 2   | —   | database setup utility             |
+| [Picsplash](https://github.com/sidgaikwad/Picsplash)         | 1   | —   | image discovery app                |
+
 <!-- DASHBOARD:END -->
 
 ---
