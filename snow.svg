@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" width="900" height="180">
+  <defs>
+    <style>
+      .flake { fill: white; opacity: 0; animation: fall linear infinite; }
+      @keyframes fall {
+        0%   { transform: translateY(-10px) translateX(0px);  opacity: 0; }
+        10%  { opacity: 0.85; }
+        90%  { opacity: 0.6; }
+        100% { transform: translateY(185px) translateX(18px); opacity: 0; }
+      }
+    </style>
+    <!-- Night sky gradient -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#050714"/>
+      <stop offset="40%"  stop-color="#0a0f2e"/>
+      <stop offset="100%" stop-color="#101435"/>
+    </linearGradient>
+    <!-- Faint moon glow -->
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#e8f0ff" stop-opacity="0.9"/>
+      <stop offset="60%"  stop-color="#a0b8ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0a0f2e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="900" height="180" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <circle cx="45"  cy="18" r="0.8" fill="#c8d8ff" opacity="0.7"/>
+  <circle cx="120" cy="9"  r="0.6" fill="#dce8ff" opacity="0.6"/>
+  <circle cx="200" cy="22" r="1.0" fill="#ffffff"  opacity="0.5"/>
+  <circle cx="310" cy="7"  r="0.7" fill="#c8d8ff" opacity="0.8"/>
+  <circle cx="390" cy="30" r="0.5" fill="#dce8ff" opacity="0.6"/>
+  <circle cx="460" cy="12" r="0.9" fill="#ffffff"  opacity="0.5"/>
+  <circle cx="540" cy="25" r="0.6" fill="#c8d8ff" opacity="0.7"/>
+  <circle cx="620" cy="8"  r="1.0" fill="#dce8ff" opacity="0.6"/>
+  <circle cx="700" cy="19" r="0.7" fill="#ffffff"  opacity="0.5"/>
+  <circle cx="780" cy="11" r="0.8" fill="#c8d8ff" opacity="0.7"/>
+  <circle cx="850" cy="28" r="0.6" fill="#dce8ff" opacity="0.6"/>
+  <circle cx="160" cy="40" r="0.5" fill="#ffffff"  opacity="0.4"/>
+  <circle cx="430" cy="48" r="0.6" fill="#c8d8ff" opacity="0.5"/>
+  <circle cx="670" cy="38" r="0.7" fill="#dce8ff" opacity="0.5"/>
+
+  <!-- Moon -->
+  <circle cx="780" cy="38" r="22" fill="url(#moon)"/>
+  <circle cx="780" cy="38" r="14" fill="#e8efff" opacity="0.92"/>
+  <!-- Moon craters (subtle) -->
+  <circle cx="775" cy="33" r="2.5" fill="#d0daf5" opacity="0.4"/>
+  <circle cx="785" cy="42" r="1.8" fill="#d0daf5" opacity="0.3"/>
+
+  <!-- Distant mountains / horizon -->
+  <polygon points="0,140 60,95 130,130 200,80 280,120 360,75 440,115 520,70 600,110 680,65 760,100 840,72 900,95 900,180 0,180"
+           fill="#0d1230" opacity="0.95"/>
+  <!-- Closer ground (snow-dusted) -->
+  <polygon points="0,158 80,148 160,155 250,145 340,152 430,142 530,150 630,143 730,151 830,144 900,150 900,180 0,180"
+           fill="#111830"/>
+  <!-- Snow on ground -->
+  <polygon points="0,163 80,153 160,160 250,150 340,157 430,147 530,155 630,148 730,156 830,149 900,155 900,180 0,180"
+           fill="#1e2d50" opacity="0.6"/>
+  <!-- Faint ground snow highlight -->
+  <ellipse cx="450" cy="175" rx="460" ry="8" fill="#2a3f6a" opacity="0.25"/>
+
+  <!-- Temple silhouette (pagoda) -->
+  <!-- Main tower -->
+  <rect x="400" y="108" width="30" height="42" fill="#080c1e"/>
+  <!-- Pagoda tiers -->
+  <polygon points="385,110 415,98 445,110" fill="#080c1e"/>
+  <polygon points="390,100 415,88 440,100" fill="#080c1e"/>
+  <polygon points="395,92  415,80 435,92"  fill="#080c1e"/>
+  <!-- Spire -->
+  <rect x="413" y="72" width="4" height="10" fill="#080c1e"/>
+  <!-- Windows glow -->
+  <rect x="407" y="120" width="6" height="8" fill="#ffd580" opacity="0.5" rx="1"/>
+  <rect x="417" y="120" width="6" height="8" fill="#ffd580" opacity="0.5" rx="1"/>
+  <!-- Gate (torii) -->
+  <rect x="368" y="130" width="3" height="20" fill="#3d1a00" opacity="0.8"/>
+  <rect x="449" y="130" width="3" height="20" fill="#3d1a00" opacity="0.8"/>
+  <rect x="365" y="130" width="92" height="4"  fill="#6b2d00" opacity="0.8"/>
+  <rect x="368" y="123" width="84" height="3"  fill="#6b2d00" opacity="0.7"/>
+  <!-- Trees (pine silhouettes) -->
+  <polygon points="340,150 350,120 360,150" fill="#080d20"/>
+  <polygon points="342,138 350,115 358,138" fill="#0a1025"/>
+  <polygon points="460,150 470,118 480,150" fill="#080d20"/>
+  <polygon points="462,136 470,113 478,136" fill="#0a1025"/>
+  <polygon points="310,152 318,128 326,152" fill="#080d20"/>
+  <polygon points="492,152 500,126 508,152" fill="#080d20"/>
+
+  <!-- SNOWFLAKES — 60 flakes at varied positions, sizes, speeds, delays -->
+  <!-- Row 1: fast small -->
+  <circle class="flake" cx="22"  cy="0" r="1.5" style="animation-duration:4.2s; animation-delay:0.0s"/>
+  <circle class="flake" cx="67"  cy="0" r="1.2" style="animation-duration:5.1s; animation-delay:0.8s"/>
+  <circle class="flake" cx="115" cy="0" r="1.8" style="animation-duration:3.9s; animation-delay:1.5s"/>
+  <circle class="flake" cx="160" cy="0" r="1.0" style="animation-duration:6.0s; animation-delay:0.3s"/>
+  <circle class="flake" cx="205" cy="0" r="2.0" style="animation-duration:4.5s; animation-delay:2.1s"/>
+  <circle class="flake" cx="250" cy="0" r="1.4" style="animation-duration:5.5s; animation-delay:0.9s"/>
+  <circle class="flake" cx="295" cy="0" r="1.7" style="animation-duration:4.0s; animation-delay:1.2s"/>
+  <circle class="flake" cx="340" cy="0" r="1.1" style="animation-duration:5.8s; animation-delay:0.5s"/>
+  <circle class="flake" cx="385" cy="0" r="1.9" style="animation-duration:3.7s; animation-delay:1.8s"/>
+  <circle class="flake" cx="430" cy="0" r="1.3" style="animation-duration:6.2s; animation-delay:0.2s"/>
+  <circle class="flake" cx="475" cy="0" r="1.6" style="animation-duration:4.8s; animation-delay:1.0s"/>
+  <circle class="flake" cx="520" cy="0" r="1.2" style="animation-duration:5.3s; animation-delay:2.4s"/>
+  <circle class="flake" cx="565" cy="0" r="2.1" style="animation-duration:4.1s; animation-delay:0.7s"/>
+  <circle class="flake" cx="610" cy="0" r="1.5" style="animation-duration:5.7s; animation-delay:1.3s"/>
+  <circle class="flake" cx="655" cy="0" r="1.0" style="animation-duration:3.8s; animation-delay:0.4s"/>
+  <circle class="flake" cx="700" cy="0" r="1.8" style="animation-duration:6.1s; animation-delay:1.7s"/>
+  <circle class="flake" cx="745" cy="0" r="1.4" style="animation-duration:4.6s; animation-delay:0.6s"/>
+  <circle class="flake" cx="790" cy="0" r="1.1" style="animation-duration:5.0s; animation-delay:2.0s"/>
+  <circle class="flake" cx="835" cy="0" r="1.7" style="animation-duration:4.3s; animation-delay:1.1s"/>
+  <circle class="flake" cx="875" cy="0" r="1.3" style="animation-duration:5.9s; animation-delay:0.1s"/>
+  <!-- Row 2: medium, mid-page start -->
+  <circle class="flake" cx="40"  cy="30" r="1.6" style="animation-duration:4.7s; animation-delay:0.3s"/>
+  <circle class="flake" cx="90"  cy="15" r="1.3" style="animation-duration:5.4s; animation-delay:1.6s"/>
+  <circle class="flake" cx="140" cy="50" r="1.9" style="animation-duration:3.6s; animation-delay:2.3s"/>
+  <circle class="flake" cx="185" cy="25" r="1.1" style="animation-duration:6.3s; animation-delay:0.9s"/>
+  <circle class="flake" cx="230" cy="60" r="2.2" style="animation-duration:4.4s; animation-delay:1.4s"/>
+  <circle class="flake" cx="275" cy="10" r="1.5" style="animation-duration:5.6s; animation-delay:0.2s"/>
+  <circle class="flake" cx="320" cy="45" r="1.2" style="animation-duration:4.9s; animation-delay:1.9s"/>
+  <circle class="flake" cx="365" cy="20" r="1.8" style="animation-duration:3.5s; animation-delay:0.8s"/>
+  <circle class="flake" cx="410" cy="55" r="1.4" style="animation-duration:6.4s; animation-delay:2.2s"/>
+  <circle class="flake" cx="455" cy="35" r="1.0" style="animation-duration:4.2s; animation-delay:0.5s"/>
+  <circle class="flake" cx="500" cy="70" r="1.7" style="animation-duration:5.1s; animation-delay:1.1s"/>
+  <circle class="flake" cx="545" cy="15" r="1.3" style="animation-duration:4.8s; animation-delay:0.7s"/>
+  <circle class="flake" cx="590" cy="45" r="2.0" style="animation-duration:3.9s; animation-delay:2.0s"/>
+  <circle class="flake" cx="635" cy="25" r="1.6" style="animation-duration:5.5s; animation-delay:1.3s"/>
+  <circle class="flake" cx="680" cy="60" r="1.1" style="animation-duration:4.0s; animation-delay:0.4s"/>
+  <circle class="flake" cx="725" cy="30" r="1.9" style="animation-duration:6.0s; animation-delay:1.8s"/>
+  <circle class="flake" cx="770" cy="50" r="1.4" style="animation-duration:4.5s; animation-delay:0.1s"/>
+  <circle class="flake" cx="815" cy="18" r="1.2" style="animation-duration:5.8s; animation-delay:1.5s"/>
+  <circle class="flake" cx="858" cy="40" r="1.6" style="animation-duration:4.3s; animation-delay:2.4s"/>
+  <circle class="flake" cx="895" cy="22" r="1.0" style="animation-duration:5.2s; animation-delay:0.6s"/>
+  <!-- Row 3: large slow -->
+  <circle class="flake" cx="55"  cy="5"  r="2.5" style="animation-duration:7.0s; animation-delay:1.2s"/>
+  <circle class="flake" cx="175" cy="35" r="2.3" style="animation-duration:7.5s; animation-delay:0.3s"/>
+  <circle class="flake" cx="285" cy="55" r="2.8" style="animation-duration:6.8s; animation-delay:2.1s"/>
+  <circle class="flake" cx="400" cy="12" r="2.4" style="animation-duration:7.2s; animation-delay:0.9s"/>
+  <circle class="flake" cx="510" cy="40" r="2.6" style="animation-duration:7.8s; animation-delay:1.7s"/>
+  <circle class="flake" cx="625" cy="18" r="2.2" style="animation-duration:6.5s; animation-delay:0.5s"/>
+  <circle class="flake" cx="740" cy="48" r="2.7" style="animation-duration:7.3s; animation-delay:2.0s"/>
+  <circle class="flake" cx="858" cy="28" r="2.4" style="animation-duration:6.9s; animation-delay:1.4s"/>
+
+  <!-- Bottom fade overlay so it blends into the README body -->
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="70%" stop-color="#050714" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#050714" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="180" fill="url(#fade)"/>
+</svg>
