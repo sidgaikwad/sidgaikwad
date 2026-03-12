@@ -2,14 +2,15 @@ name: 📊 dashboard
 
 on:
   schedule:
-    - cron: "0 */8 * * *"   # every 8 hours — same as nrjdalal
+    - cron: "0 */8 * * *"   # every 8 hours (same cadence as nrjdalal)
   workflow_dispatch:
   push:
     branches: [main]
 
 jobs:
-  update-dashboard:
+  update:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
@@ -17,22 +18,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node 20
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Run github-dashboard
-        run: npx github-dashboard@latest
+        run: npx --yes github-dashboard@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: sidgaikwad
-          # Markers in README.md: <!-- DASHBOARD:START --> ... <!-- DASHBOARD:END -->
           README_PATH: README.md
           START_MARKER: "<!-- DASHBOARD:START -->"
           END_MARKER: "<!-- DASHBOARD:END -->"
 
-      - name: Commit changes
+      - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
