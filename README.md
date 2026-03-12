@@ -1,228 +1,172 @@
 <div align="center">
 
-<!-- ANIMATED HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e3bff,50:a855f7,100:06b6d4&height=200&section=header&text=Siddharth%20Gaikwad&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Engineer%20%7C%20Mumbai%20%F0%9F%87%AE%F0%9F%87%B3&descAlignY=58&descSize=18" width="100%" />
+<!-- ❄️ JAPAN NIGHT SNOW — full-width animated SVG (self-hosted in this repo) -->
+<img src="https://raw.githubusercontent.com/sidgaikwad/sidgaikwad/main/snow.svg" width="100%" alt="Japan night snow" />
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=false&repeat=true&width=620&lines=Hey+there!+I'm+Sidd+%F0%9F%91%8B;Full+Stack+Developer+%7C+SDE;Building+Terminal+UIs+%26+Monorepos+%E2%9A%99%EF%B8%8F;TypeScript+%7C+React+%7C+Node.js;Exploring+AI+with+ComfyUI+%E2%9C%A8;Always+learning%2C+always+building+%F0%9F%94%A5" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1200&color=8BA7D4&center=true&vCenter=true&width=560&lines=hey+%E2%80%94+i%27m+sidd+%F0%9F%91%8B;full+stack+engineer+%7C+mumbai+%F0%9F%87%AE%F0%9F%87%B3;typescript+%7C+react+%7C+node.js;building+things+people+actually+use+%F0%9F%9A%80;%E9%9B%AA%E3%81%AE%E5%A4%9C%E3%81%ABcode%E3%82%92%E6%9B%B8%E3%81%8F+%E2%9C%A8" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- STATS BADGES -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=sidgaikwad&label=Profile%20Views&color=a855f7&style=for-the-badge" alt="profile views" />
-  <a href="https://github.com/sidgaikwad?tab=followers">
-    <img src="https://img.shields.io/github/followers/sidgaikwad?label=Followers&style=for-the-badge&color=06b6d4&labelColor=0f0f0f" />
-  </a>
-  <a href="https://github.com/sidgaikwad?tab=stars">
-    <img src="https://img.shields.io/github/stars/sidgaikwad?affiliations=OWNER%2CCOLLABORATOR&label=Total%20Stars&style=for-the-badge&color=f59e0b&labelColor=0f0f0f" />
-  </a>
-</p>
+<img src="https://komarev.com/ghpvc/?username=sidgaikwad&label=profile+views&color=4a6fa5&style=flat-square" />
+&nbsp;
+<a href="https://github.com/sidgaikwad?tab=followers">
+  <img src="https://img.shields.io/github/followers/sidgaikwad?style=flat-square&color=4a6fa5&labelColor=0d1117&label=followers" />
+</a>
+&nbsp;
+<img src="https://img.shields.io/github/stars/sidgaikwad?affiliations=OWNER&style=flat-square&color=f0c060&labelColor=0d1117&label=stars" />
 
 </div>
 
 ---
 
-## 🧑‍💻 The Architect Behind the Code
-
-<img align="right" alt="coding gif" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" />
+## 🧑‍💻 about me
 
 ```typescript
 const sidd: Engineer = {
-  name:     "Siddharth Gaikwad",
-  alias:    "sidgaikwad",
-  location: "Mumbai, India 🇮🇳",
-  role:     "Full Stack Engineer (SDE)",
+  name:      "Siddharth Gaikwad",
+  location:  "Mumbai, India 🌙",
+  role:      "Full Stack Engineer (SDE)",
 
-  currentFocus: [
-    "Building a terminal-based API client using Ink",
-    "Redis-powered backend stress-testing tools",
-    "Architecting scalable multi-workspace monorepos",
-    "Tinkering with ComfyUI AI generation workflows",
+  currentlyBuilding: [
+    "📄 papercraft    — TypeScript document crafting tool",
+    "⚡ terminal API client using Ink (TUI)",
+    "🔴 Redis-powered backend stress-tester",
+    "🏗️  scalable multi-workspace monorepo architecture",
   ],
 
-  passions: [
-    "TypeScript strict mode enthusiast",
-    "Clean, readable, highly optimized code",
-    "Open Source contributions",
-  ],
+  stack: {
+    languages:  ["TypeScript", "JavaScript", "SQL"],
+    frontend:   ["React", "Next.js", "Tailwind CSS", "Vite"],
+    backend:    ["Node.js", "Express", "Redis", "PostgreSQL", "MongoDB"],
+    tools:      ["Docker", "GitHub Actions", "Vercel", "Netlify", "Linux"],
+  },
 
-  funFact:      "I debug with console.log() and wear it as a badge 😅",
-  achievements: ["🦈 Pull Shark × 2", "⚡ Quickdraw", "👥 Pair Extraordinaire × 2"],
+  achievements: ["🦈 Pull Shark ×2", "⚡ Quickdraw", "👥 Pair Extraordinaire ×2"],
+  funFact: "console.log debugger — unashamed 😌",
 };
 ```
 
-<br clear="right"/>
-
 ---
 
-## 🛠️ Tech Stack & Arsenal
+## 🛠️ stack
 
 <div align="center">
 
-### 💬 Languages
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
-</p>
-
-### ⚛️ Frontend
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
-</p>
-
-### 🔧 Backend & Databases
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-</p>
-
-### 🚀 Tools & Cloud
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
-</p>
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </div>
 
 ---
 
-## 🚀 Featured Engineering
+## 🚀 projects
 
 <div align="center">
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">📄 papercraft</h3>
-      <div align="center">
-        <a href="https://github.com/sidgaikwad/papercraft">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sidgaikwad&repo=papercraft&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=06b6d4" />
-        </a>
-        <p>TypeScript-powered papercraft tool. ⭐ 13 &nbsp;·&nbsp; 🍴 2</p>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">🌐 siddcn</h3>
-      <div align="center">
-        <a href="https://github.com/sidgaikwad/siddcn">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sidgaikwad&repo=siddcn&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=06b6d4" />
-        </a>
-        <p>Website + docs deployment with seamless TypeScript. ⭐ 8</p>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🎬 Netflix Clone</h3>
-      <div align="center">
-        <a href="https://github.com/sidgaikwad/netflix-clone">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sidgaikwad&repo=netflix-clone&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=06b6d4" />
-        </a>
-        <p>A highly-detailed Netflix clone built from the ground up. ⭐ 2</p>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">🖼️ Picsplash</h3>
-      <div align="center">
-        <a href="https://github.com/sidgaikwad/Picsplash">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sidgaikwad&repo=Picsplash&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=06b6d4" />
-        </a>
-        <p>Beautiful image discovery app with a clean UI. ⭐ 1</p>
-      </div>
-    </td>
-  </tr>
-</table>
+
+<a href="https://github.com/sidgaikwad/papercraft">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sidgaikwad&repo=papercraft&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8ba7d4&icon_color=4a6fa5&text_color=6b8dd6" />
+</a>
+<a href="https://github.com/sidgaikwad/siddcn">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sidgaikwad&repo=siddcn&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8ba7d4&icon_color=4a6fa5&text_color=6b8dd6" />
+</a>
+<a href="https://github.com/sidgaikwad/netflix-clone">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sidgaikwad&repo=netflix-clone&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8ba7d4&icon_color=4a6fa5&text_color=6b8dd6" />
+</a>
+<a href="https://github.com/sidgaikwad/Picsplash">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sidgaikwad&repo=Picsplash&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8ba7d4&icon_color=4a6fa5&text_color=6b8dd6" />
+</a>
+
 </div>
 
 ---
 
-## 📊 Performance & Analytics
+## 📊 stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sidgaikwad&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=06b6d4&text_color=c9d1d9&count_private=true&include_all_commits=true" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sidgaikwad&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=06b6d4&fire=f59e0b&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=a855f7&sideLabels=a855f7&dates=8b949e" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=sidgaikwad&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8ba7d4&icon_color=4a6fa5&text_color=6b8dd6&count_private=true&include_all_commits=true&hide=issues" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sidgaikwad&theme=tokyonight&hide_border=true&background=0d1117&stroke=1a2744&ring=4a6fa5&fire=8ba7d4&currStreakNum=e2e8ff&sideNums=e2e8ff&currStreakLabel=8ba7d4&sideLabels=4a6fa5&dates=3d5280" width="48%" />
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sidgaikwad&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&layout=compact&include_all_commits=true&count_private=true&langs_count=6" width="40%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sidgaikwad&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8ba7d4&text_color=6b8dd6&layout=compact&count_private=true&langs_count=6" width="40%" />
 
 </div>
 
 ---
 
-## 📈 Contribution Activity
+## 🏆 trophies
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sidgaikwad&bg_color=0d1117&color=a855f7&line=06b6d4&point=f59e0b&area=true&hide_border=true&area_color=a855f720" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=sidgaikwad&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" width="100%" />
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sidgaikwad&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" width="100%" />
-</div>
-
----
-
-## 🐍 Watch My Contributions Get Eaten
+## 🐍 contributions
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sidgaikwad/sidgaikwad/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/sidgaikwad/sidgaikwad/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sidgaikwad/sidgaikwad/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/sidgaikwad/sidgaikwad/output/github-contribution-grid-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/sidgaikwad/sidgaikwad/output/github-contribution-grid-snake-dark.svg" />
   </picture>
 </div>
 
 ---
 
-## 🪪 Holopin Badges
+## 📦 all repos · auto-updated every 8h
+
+<!-- DASHBOARD:START -->
+| repo | ⭐ | 🍴 | about |
+| --- | --- | --- | --- |
+| [papercraft](https://github.com/sidgaikwad/papercraft) | 13 | 2 | TypeScript-powered papercraft tool |
+| [siddcn](https://github.com/sidgaikwad/siddcn) | 8 | — | website + docs deployment |
+| [netflix-clone](https://github.com/sidgaikwad/netflix-clone) | 2 | — | full Netflix clone on Netlify |
+| [db-setup](https://github.com/sidgaikwad/db-setup) | 2 | — | database setup utility |
+| [Picsplash](https://github.com/sidgaikwad/Picsplash) | 1 | — | image discovery app |
+<!-- DASHBOARD:END -->
+
+---
+
+## 🪪 holopin
 
 <div align="center">
 
-[![@sidgaikwad's Holopin board](https://holopin.io/api/user/board?user=sidgaikwad)](https://holopin.io/@sidgaikwad)
+[![@sidgaikwad holopin board](https://holopin.io/api/user/board?user=sidgaikwad)](https://holopin.io/@sidgaikwad)
 
 </div>
 
 ---
 
-## 🌐 Connect With Me
+## 🌐 connect
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/siddharth-gaikwad-720497205/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
+&nbsp;
 <a href="https://twitter.com/_sidd24_">
-  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Twitter-1d9bf0?style=for-the-badge&logo=twitter&logoColor=white" />
 </a>
+&nbsp;
 <a href="https://www.instagram.com/_sidd24_">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
-<a href="https://www.facebook.com/siddharth.gaikwad.71619533/">
-  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
-</a>
-<a href="https://holopin.io/@sidgaikwad">
-  <img src="https://img.shields.io/badge/Holopin-8A2BE2?style=for-the-badge&logo=holopin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Instagram-e1306c?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
 
 </div>
@@ -230,14 +174,5 @@ const sidd: Engineer = {
 ---
 
 <div align="center">
-  <i>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</i><br/>
-  <b>— Martin Fowler</b>
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:a855f7,100:6e3bff&height=120&section=footer" width="100%" />
-
-<div align="center">
-  <sub>⭐ If something catches your eye — drop a star, it keeps the fuel going! ⭐</sub>
+  <sub>雪が降る夜にコードを書く &nbsp;✦&nbsp; writing code on a snowy night in tokyo</sub>
 </div>
